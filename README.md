@@ -3,7 +3,7 @@ Swift extension for customizing navigation bar(change color, add button to left 
 
 
 # Usage:
-To use this extension, simply copy NavBarNinja.swift to your project, then write inside any function "NavBarNinja" to see what can you do with your navigation bar.
+To use this extension, simply copy NavBarNinja.swift to your project, then write inside any function "NavBarNinja" to see what you can do with your navigation bar.
 
 for example:
 
