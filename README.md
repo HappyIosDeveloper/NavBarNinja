@@ -9,9 +9,13 @@ for example:
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // if you need button on navigation bar
         let leftButton = UIButton()
-        leftButton.addTarget(self, action: #selector(self.action), for: .touchUpInside)
+        leftButton.addTarget(self, action: #selector(self.action), for: .touchUpInside) 
         navBarNinja(leftButton: leftButton, icon: UIImage())
+        
+        // more customizations
         navBarNinja(titleColor: UIColor.black)
         navBarNinja(hideNavigationBar: false)
         navbarNinja(backgroundImage: UIImage())
