@@ -21,10 +21,7 @@ extension UIViewController {
     }
     
     func navBarNinja(titleColor: UIColor) {
-        let nav = self.navigationController?.navigationBar
-        nav?.barStyle = UIBarStyle.black
-        nav?.tintColor = titleColor
-        nav?.titleTextAttributes = [NSAttributedStringKey.foregroundColor: titleColor]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: titleColor]
     }
     
     func navBarNinja(showNavBarShadow: Bool) {
