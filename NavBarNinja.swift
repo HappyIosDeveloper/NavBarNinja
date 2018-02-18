@@ -32,6 +32,12 @@ extension UIViewController {
         }
     }
     
+    func navBarNinja(centerImage: UIImage) {
+        let imageView = UIImageView(image: centerImage)
+        imageView.contentMode = .center
+        navigationItem.titleView = imageView
+    }
+    
     func navBarNinja(rightButton: UIButton, icon: UIImage, textLabel:String = "") {
         let maskView = UIImageView()
         maskView.image = #imageLiteral(resourceName: "mask") // your png mask image
