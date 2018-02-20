@@ -11,9 +11,9 @@ import UIKit
 extension UIViewController {
     
     func navBarNinja(color:UIColor) {
-        self.navigationController?.navigationBar.tintColor = color
+    //    self.navigationController?.navigationBar.tintColor = color // optional
         self.navigationController?.navigationBar.barTintColor = color
-        self.navigationController?.navigationBar.backgroundColor = color
+     //   self.navigationController?.navigationBar.backgroundColor = color // optional
     }
     
     func navbarNinja(backgroundImage:UIImage) {
