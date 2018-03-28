@@ -21,7 +21,13 @@ extension UIViewController {
     }
     
     func navBarNinja(titleColor: UIColor) {
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: titleColor]
+                navigationController?.navigationBar.titleTextAttributes = [ NSAttributedStringKey.font: UIFont(name: "YOUR CUSTOM FONT NAME", size: 16, NSAttributedStringKey.foregroundColor:titleColor] // option 1
+//        let nav = self.navigationController?.navigationBar // option 2
+//        nav?.barStyle = UIBarStyle.black
+//        nav?.tintColor = titleColor
+//        nav?.titleTextAttributes = [NSAttributedStringKey.font: titleColor]
+        
+//        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor: titleColor] // option 3
     }
     
     func navBarNinja(showNavBarShadow: Bool) {
